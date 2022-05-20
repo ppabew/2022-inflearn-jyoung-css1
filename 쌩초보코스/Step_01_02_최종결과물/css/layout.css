@@ -1,0 +1,17 @@
+@charset"utf-8";
+
+/*reset*/
+*,html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, image, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, tbody, tfoot, thead, tr, th, td{margin:0;padding:0;}
+a {color: inherit; text-decoration: inherit;}
+li {list-style: none;}
+
+/*layout*/
+body {font-family:'NanumSquare',sans-serif !important; background: #22212E;}
+.wrap {width: 1000px; margin: 150px auto; text-align: center; color:#fff;}
+.wrap .title {background: url(../img/img_01.png)no-repeat center top/200px; padding-top: 250px;}
+.wrap .title h1 {font-size: 50px; font-weight: 800; color: #E0c2fe;}
+.wrap .title h1 span {color:#b67eef;}
+.wrap .title p {font-size: 25px; margin:20px 0 30px;}
+.wrap ul {border-top: 1px solid #707070;padding-top: 30px;}
+.wrap ul li {display: inline-block; font-weight: 800; font-size: 20px;background: #3a3945;padding: 10px 27px;border-radius: 50px;margin-right: 10px;}
+.wrap ul li:last-child{margin-right: 0;}
