@@ -17,6 +17,7 @@ body {
     width: 1000px;
     margin: 100px auto;
     overflow: hidden;
+    position: relative;
 }
 
 /* list */
@@ -69,3 +70,48 @@ body {
     right: 0;
     z-index: -1;
 }
+
+
+/* 자식 선택자를 이용하여 순서대로 박스 색상 변경하기 */
+.list li:nth-child(2) .img:before {
+    background: #eedbdb;
+}
+
+.list li:nth-child(3) .img:before {
+    background: #494141;
+}
+
+.list li.left .text{
+    float: right;
+}
+
+.list li.left .img {
+    float: left;
+}
+.list li.left .img:before {
+    left: 0;
+}
+
+.list li.left .img img {
+    margin-left: 80px;
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+/* span.bar */
+.wrap span.bar {
+    position: absolute;
+    width: 5px;
+    height: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #f2dede;
+}
+
